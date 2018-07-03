@@ -1,0 +1,405 @@
+.top-item{
+	width: 100%;
+	overflow: hidden;
+	padding:10px 40px;
+	line-height:42px;
+	font-weight:bold;
+}
+.txtlogo{
+	font-size: 24px;
+}
+.rnav span{
+	display:inline-block;
+	padding:0 20px;
+}
+.rnav span a{
+}
+.rnav span a:hover{
+	text-decoration:none;
+	border-bottom:2px solid #000;
+}
+.floorItem>div{
+	position:relative;
+	border:1px solid transparent;
+}
+.floorItem .f1{
+	height:800px;
+	background: url(../img/f1bg.png) no-repeat right;
+	background-size:100% auto;
+}
+.floorItem .txtBox{
+	width:285px;
+	overflow:hidden;
+	text-align:left;
+	padding:10px;
+	margin:320px 0 0 200px;
+	color: #666;
+}
+.floorItem .txtBox .t{
+	display:block;
+	width:180px;
+	font-size: 18px;
+	line-height:42px;
+	border: 1px solid #000;
+	text-align:center;
+	margin-bottom:10px;
+}
+.floorItem .txtBox .item{
+	line-height:18px;
+	font-size: 12px;
+}
+.floorItem .txtBox .mt{
+	margin-top:6px;
+}
+.floorItem .f2{
+	height:800px;
+	background: url(../img/f2bg.png) no-repeat left 40px;
+	background-size:100% auto;
+}
+.f2 .rtxt{
+	line-height: 32px;
+	font-weight:bold;
+	font-size: 14px;
+}
+.floorItem .f3{
+	height:500px;
+}
+.f3 .childItem{
+	height:100%;
+	float: left;
+}
+.f3 .lb,.f3 .rb{
+	width:26%;
+}
+.f3 .lb{
+	
+	text-align:right;
+}
+.f3 .rb{
+	text-align:left;
+}
+.f3 .cb{
+	width:46%;
+	background: url(../img/f3bg.png) no-repeat center;
+	background-size:auto 100%;
+}
+.f3 .tt{
+	font-size:32px;
+	font-weight:bold;
+}
+.f3 .bt{
+	font-size:20px;
+}
+.f3 .card span{
+	display: block;
+}
+.f3 .about{
+	text-align: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.pathImg{
+	position: relative;
+	width: 100%;
+	height:600px;
+	padding:20px 0;
+	border:1px solid #f2defe;
+	box-shadow:0 4px 12px #f2defe;
+	margin-top:60px;
+}
+.pathLine{
+	width: 100%;
+	height:100%;
+}
+.bomPut{
+	position: relative;
+	width: 100%;
+	height:520px;
+	margin-top:40px;
+}
+.bomPut .bgbox{
+	width:450px;
+	height:584px;
+	position: absolute;
+    right: -188px;
+    top: -104px;
+	z-index:88;
+	background: url(../img/putbg.png) no-repeat right bottom;
+	background-size:auto 100%;
+}
+.bomPut .conbox{
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index:99;
+	width:90%;
+	height:490px;
+	padding:20px;
+	box-shadow:0 4px 12px #ddd;
+	background: #fff;
+}
+.bomPut .tBtn{
+	width: 100%;
+	padding:10px 0;
+}
+.bomPut .tBtn span{
+	display: inline-block;
+	line-height: 36px;
+	border-radius:36px;
+	padding:0 20px;
+	margin-right: 30px;
+}
+.bomPut .tBtn .selectbox.black,.yearBox .selectbox.black{
+	background:#000;
+}
+.bomPut .tBtn .selectbox.red{
+	background:#ff686f;
+}
+.bomPut .addr{
+	text-align: center;
+	width:360px;
+	height:42px;
+	line-height: 42px;
+	border:1px solid #ccc;
+	margin-right:50px;
+}
+.bomPut .tBtn .selectbox,.yearBox .selectbox.black{
+	border:0;
+	color:#fff;
+	width:140px;
+	height:42px;
+	line-height: 42px;
+	border-radius:42px;
+	outline:0;
+	padding-left:20px;
+	text-align: center;
+	margin-right:20px;
+}
+.bomPut .ptit{
+	width: 100%;
+	margin:10px 0;
+}
+.bomPut .ptit input{
+	width: 100%;
+	height:42px;
+	line-height: 42px;
+	font-size: 14px;
+	border:1px solid #ccc;
+}
+.bomPut .ptit input.errbor{
+	border: 1px solid #ff0000;
+}
+.bomPut .addr.errbor{
+	border: 1px solid #ff0000;
+}
+.bomPut .tBtn .selectbox.errbor{
+	border: 1px solid #ff0000;
+}
+.bomPut .pcon textarea.errbor{
+	border: 1px solid #ff0000;
+}
+.bomPut .pcon{
+	width: 100%;
+}
+.bomPut .pcon textarea{
+	width: 100%;
+	resize: none;
+	padding:10px;
+	height:260px;
+	font-size: 14px;
+	border:1px solid #ccc;
+}
+.bomPut .bombtn{
+	width: 100%;
+	padding:10px 0;
+	text-align: right;
+}
+.bomPut .bombtn button{
+	width: 120px;
+	height: 42px;
+	text-align: center;
+	border-radius:42px;
+	color: #666;
+	font-size: 14px;
+	background:none;
+	border: 1px solid #666;
+}
+.bomPut .bombtn button:hover{
+	background:#666;
+	color:#fff;
+}
+#reloadPath{
+	color:#FF0000;
+	border-bottom:1px solid #FF0000;
+	cursor: pointer;
+	margin-right:20px;
+}
+
+
+.sbox{
+	width: 100%;
+	position: relative;
+	margin-top:60px;
+	height:680px;
+}
+.sbox .dancon{
+	position: relative;
+	width: 100%;
+	height:600px;
+	overflow: hidden;
+	background:url(../img/dantxtbg.png) no-repeat left bottom;
+	background-size:100% auto;
+}
+.sbox .dancon .barrage{
+	-webkit-transform: translate3d(0, 0, 0);
+   -moz-transform: translate3d(0, 0, 0);
+   -ms-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+.sbox .danbox{
+	height:680px;
+}
+.sbox .putBox{
+	width: 100%;
+	text-align: center;
+	padding:33px 0;
+}
+.sbox .putBox input{
+	width:400px;
+	height: 44px;
+	line-height: 44px;
+	border-radius:8px;
+	border: 1px solid #000;
+	text-align: center;
+	font-size: 14px;
+	margin-right:5px;
+	border:1px solid #ccc;
+}
+.sbox .putBox button{
+	width:120px;
+	height: 44px;
+	line-height: 44px;
+	border-radius:6px;
+	background:#000;
+	color:#fff;
+	font-size: 16px;
+}
+
+
+.yearBox{
+	width: 100%;
+	margin-top: 50px;
+}
+.yearBox .bgbox{
+	position: relative;
+	height:800px;
+	background: url(../img/yearbg.png) no-repeat left top;
+	background-size:100% auto;
+}
+.yearBox .conBox{
+	position: absolute;
+	bottom: 0;
+	left:5%;
+	width:90%;
+	height:500px;
+	background: #fff;
+	border:1px solid #f2defe;
+	box-shadow:0 4px 12px #f2defe;
+	padding:20px;
+}
+.yearBox .tbtn{
+	width: 100%;
+	padding:10px 0;
+}
+.yearBox .search{
+	width:80px;
+	text-align: center;
+	background: #FF686F;
+	color: #fff;
+	height:42px;
+	border-radius:42px;
+}
+.yearBox .conList{
+	width: 100%;
+	height:400px;
+	border: 1px solid #ccc;
+}
+.yearBox .conList li{
+	padding:10px 0;
+	width:100%;
+	border-bottom:1px dashed #ccc;
+}
+.yearBox .conList li .t{
+	font-size:14px;
+	font-weight: bold;
+}
+.yearBox .conList li p{
+	width: 100%;
+	overflow: hidden;
+}
+.yearBox .conList .topp{
+	margin-bottom: 10px;
+}
+.yearBox .conList li a{
+	color:#1197ff;
+}
+.listbox{
+	width: 100%;
+	height:340px;
+	overflow: auto;
+	padding:0 20px;
+}
+.listbox::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.listbox::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+}
+.listbox::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}
+.yearBox .conList li .con{
+	line-height:16px;
+	color: #999;
+}
+.yearBox .page{
+	text-align:  right;
+	width: 100%;
+	padding:13px 20px;
+}
+.yearBox .page button{
+	line-height: 32px;
+	height:32px;
+	width:120px;
+	border-radius:42px;
+	background:#1197FF;
+	color: #fff;
+	vertical-align:bottom;
+}
+.yearBox .emptytip{
+	text-align: center;
+	color:#999;
+	line-height: 42px;
+	border-bottom:none;
+	display: none;
+}
+.yearBox .emptytip.show{
+	display: block;
+}
+.yearBox .page .pageVal{
+	display: inline-block;
+	vertical-align:bottom;
+	height:32px;
+	line-height: 32px;
+	width:40px;
+	background: #fff;
+	color: #666;
+	border: 1px solid #ccc;
+	text-align: center;
+}
